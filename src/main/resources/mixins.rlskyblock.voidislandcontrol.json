@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "rlskyblock.mixin.skyblock",
+  "refmap": "mixins.rlskyblock.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "mixins": [
+    "VoidIslandControlMixin",
+    "WorldTypeVoidMixin"
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}
